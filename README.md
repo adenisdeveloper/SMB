@@ -1,7 +1,7 @@
 SMB
 ===
 
-[![CI](https://github.com/binfotech/SMB/actions/workflows/ci.yaml/badge.svg)](https://github.com/binfotech/SMB/actions/workflows/ci.yaml)
+
 
 PHP wrapper for `smbclient` and [`libsmbclient-php`](https://github.com/eduardok/libsmbclient-php)
 
