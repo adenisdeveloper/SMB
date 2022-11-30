@@ -5,9 +5,9 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
-use BInfotech\SMB\Exception\InvalidPathException;
+use Tecnovix\SMB\Exception\InvalidPathException;
 
 abstract class AbstractShare implements IShare {
 	/** @var string[] */

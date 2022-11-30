@@ -5,25 +5,25 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Native;
+namespace Tecnovix\SMB\Native;
 
-use BInfotech\SMB\Exception\AlreadyExistsException;
-use BInfotech\SMB\Exception\ConnectionRefusedException;
-use BInfotech\SMB\Exception\ConnectionResetException;
-use BInfotech\SMB\Exception\Exception;
-use BInfotech\SMB\Exception\FileInUseException;
-use BInfotech\SMB\Exception\ForbiddenException;
-use BInfotech\SMB\Exception\HostDownException;
-use BInfotech\SMB\Exception\InvalidArgumentException;
-use BInfotech\SMB\Exception\InvalidTypeException;
-use BInfotech\SMB\Exception\ConnectionAbortedException;
-use BInfotech\SMB\Exception\NoRouteToHostException;
-use BInfotech\SMB\Exception\NotEmptyException;
-use BInfotech\SMB\Exception\NotFoundException;
-use BInfotech\SMB\Exception\OutOfSpaceException;
-use BInfotech\SMB\Exception\TimedOutException;
-use BInfotech\SMB\IAuth;
-use BInfotech\SMB\IOptions;
+use Tecnovix\SMB\Exception\AlreadyExistsException;
+use Tecnovix\SMB\Exception\ConnectionRefusedException;
+use Tecnovix\SMB\Exception\ConnectionResetException;
+use Tecnovix\SMB\Exception\Exception;
+use Tecnovix\SMB\Exception\FileInUseException;
+use Tecnovix\SMB\Exception\ForbiddenException;
+use Tecnovix\SMB\Exception\HostDownException;
+use Tecnovix\SMB\Exception\InvalidArgumentException;
+use Tecnovix\SMB\Exception\InvalidTypeException;
+use Tecnovix\SMB\Exception\ConnectionAbortedException;
+use Tecnovix\SMB\Exception\NoRouteToHostException;
+use Tecnovix\SMB\Exception\NotEmptyException;
+use Tecnovix\SMB\Exception\NotFoundException;
+use Tecnovix\SMB\Exception\OutOfSpaceException;
+use Tecnovix\SMB\Exception\TimedOutException;
+use Tecnovix\SMB\IAuth;
+use Tecnovix\SMB\IOptions;
 
 /**
  * Low level wrapper for libsmbclient-php with error handling

@@ -5,17 +5,17 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Wrapped;
+namespace Tecnovix\SMB\Wrapped;
 
-use BInfotech\SMB\AbstractServer;
-use BInfotech\SMB\Exception\AuthenticationException;
-use BInfotech\SMB\Exception\ConnectException;
-use BInfotech\SMB\Exception\ConnectionException;
-use BInfotech\SMB\Exception\ConnectionRefusedException;
-use BInfotech\SMB\Exception\Exception;
-use BInfotech\SMB\Exception\InvalidHostException;
-use BInfotech\SMB\IShare;
-use BInfotech\SMB\ISystem;
+use Tecnovix\SMB\AbstractServer;
+use Tecnovix\SMB\Exception\AuthenticationException;
+use Tecnovix\SMB\Exception\ConnectException;
+use Tecnovix\SMB\Exception\ConnectionException;
+use Tecnovix\SMB\Exception\ConnectionRefusedException;
+use Tecnovix\SMB\Exception\Exception;
+use Tecnovix\SMB\Exception\InvalidHostException;
+use Tecnovix\SMB\IShare;
+use Tecnovix\SMB\ISystem;
 
 class Server extends AbstractServer {
 	/**

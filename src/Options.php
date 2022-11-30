@@ -19,7 +19,7 @@
  *
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
 class Options implements IOptions {
 	/** @var int */

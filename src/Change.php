@@ -6,7 +6,7 @@
  *
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
 class Change {
 	/** @var int */

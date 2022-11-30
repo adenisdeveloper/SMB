@@ -19,7 +19,7 @@
  *
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
 /**
  * The `ISystem` interface provides a way to access system dependent information

@@ -5,10 +5,10 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Wrapped;
+namespace Tecnovix\SMB\Wrapped;
 
-use BInfotech\SMB\ACL;
-use BInfotech\SMB\IFileInfo;
+use Tecnovix\SMB\ACL;
+use Tecnovix\SMB\IFileInfo;
 
 class FileInfo implements IFileInfo {
 	/** @var string */

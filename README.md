@@ -18,8 +18,8 @@ Examples
 
 ```php
 <?php
-use BInfotech\SMB\ServerFactory;
-use BInfotech\SMB\BasicAuth;
+use Tecnovix\SMB\ServerFactory;
+use Tecnovix\SMB\BasicAuth;
 
 require('vendor/autoload.php');
 
@@ -141,7 +141,7 @@ fclose($fh);
 ### Using notify
 
 ```php
-$share->notify('')->listen(function (\BInfotech\SMB\Change $change) {
+$share->notify('')->listen(function (\Tecnovix\SMB\Change $change) {
 	echo $change->getCode() . ': ' . $change->getPath() . "\n";
 });
 ```

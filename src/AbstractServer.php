@@ -19,7 +19,7 @@
  *
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
 abstract class AbstractServer implements IServer {
 	const LOCALE = 'en_US.UTF-8';

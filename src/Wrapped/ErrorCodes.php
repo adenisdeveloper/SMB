@@ -5,7 +5,7 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Wrapped;
+namespace Tecnovix\SMB\Wrapped;
 
 class ErrorCodes {
 	/**

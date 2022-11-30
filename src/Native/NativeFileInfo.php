@@ -5,11 +5,11 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Native;
+namespace Tecnovix\SMB\Native;
 
-use BInfotech\SMB\ACL;
-use BInfotech\SMB\Exception\Exception;
-use BInfotech\SMB\IFileInfo;
+use Tecnovix\SMB\ACL;
+use Tecnovix\SMB\Exception\Exception;
+use Tecnovix\SMB\IFileInfo;
 
 class NativeFileInfo implements IFileInfo {
 	/** @var string */

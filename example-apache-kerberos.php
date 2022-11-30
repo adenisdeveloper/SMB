@@ -10,8 +10,8 @@ if (php_sapi_name() == "cli") {
 $host = 'krb.domain.test';
 $share = 'netlogon';
 
-$auth = new \BInfotech\SMB\KerberosApacheAuth();
-$serverFactory = new \BInfotech\SMB\ServerFactory();
+$auth = new \Tecnovix\SMB\KerberosApacheAuth();
+$serverFactory = new \Tecnovix\SMB\ServerFactory();
 
 $server = $serverFactory->createServer($host, $auth);
 

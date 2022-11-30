@@ -5,7 +5,7 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Exception;
+namespace Tecnovix\SMB\Exception;
 
 class InvalidHostException extends ConnectException {
 }

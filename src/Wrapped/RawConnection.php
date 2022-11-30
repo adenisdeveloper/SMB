@@ -5,10 +5,10 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Wrapped;
+namespace Tecnovix\SMB\Wrapped;
 
-use BInfotech\SMB\Exception\ConnectException;
-use BInfotech\SMB\Exception\ConnectionException;
+use Tecnovix\SMB\Exception\ConnectException;
+use Tecnovix\SMB\Exception\ConnectionException;
 
 class RawConnection {
 	/**

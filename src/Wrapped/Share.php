@@ -5,28 +5,28 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Wrapped;
+namespace Tecnovix\SMB\Wrapped;
 
-use BInfotech\SMB\AbstractShare;
-use BInfotech\SMB\ACL;
-use BInfotech\SMB\Exception\AlreadyExistsException;
-use BInfotech\SMB\Exception\AuthenticationException;
-use BInfotech\SMB\Exception\ConnectException;
-use BInfotech\SMB\Exception\ConnectionException;
-use BInfotech\SMB\Exception\DependencyException;
-use BInfotech\SMB\Exception\Exception;
-use BInfotech\SMB\Exception\FileInUseException;
-use BInfotech\SMB\Exception\InvalidHostException;
-use BInfotech\SMB\Exception\InvalidTypeException;
-use BInfotech\SMB\Exception\NotFoundException;
-use BInfotech\SMB\Exception\InvalidRequestException;
-use BInfotech\SMB\IFileInfo;
-use BInfotech\SMB\INotifyHandler;
-use BInfotech\SMB\IServer;
-use BInfotech\SMB\ISystem;
-use BInfotech\Streams\CallbackWrapper;
-use BInfotech\SMB\Native\NativeShare;
-use BInfotech\SMB\Native\NativeServer;
+use Tecnovix\SMB\AbstractShare;
+use Tecnovix\SMB\ACL;
+use Tecnovix\SMB\Exception\AlreadyExistsException;
+use Tecnovix\SMB\Exception\AuthenticationException;
+use Tecnovix\SMB\Exception\ConnectException;
+use Tecnovix\SMB\Exception\ConnectionException;
+use Tecnovix\SMB\Exception\DependencyException;
+use Tecnovix\SMB\Exception\Exception;
+use Tecnovix\SMB\Exception\FileInUseException;
+use Tecnovix\SMB\Exception\InvalidHostException;
+use Tecnovix\SMB\Exception\InvalidTypeException;
+use Tecnovix\SMB\Exception\NotFoundException;
+use Tecnovix\SMB\Exception\InvalidRequestException;
+use Tecnovix\SMB\IFileInfo;
+use Tecnovix\SMB\INotifyHandler;
+use Tecnovix\SMB\IServer;
+use Tecnovix\SMB\ISystem;
+use Tecnovix\Streams\CallbackWrapper;
+use Tecnovix\SMB\Native\NativeShare;
+use Tecnovix\SMB\Native\NativeServer;
 
 class Share extends AbstractShare {
 	/**
@@ -466,10 +466,10 @@ class Share extends AbstractShare {
 	 *
 	 * @return bool
 	 * @throws AlreadyExistsException
-	 * @throws \BInfotech\SMB\Exception\AccessDeniedException
-	 * @throws \BInfotech\SMB\Exception\NotEmptyException
+	 * @throws \Tecnovix\SMB\Exception\AccessDeniedException
+	 * @throws \Tecnovix\SMB\Exception\NotEmptyException
 	 * @throws InvalidTypeException
-	 * @throws \BInfotech\SMB\Exception\Exception
+	 * @throws \Tecnovix\SMB\Exception\Exception
 	 * @throws NotFoundException
 	 */
 	protected function parseOutput(array $lines, string $path = ''): bool {

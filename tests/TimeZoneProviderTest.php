@@ -19,10 +19,10 @@
  *
  */
 
-namespace BInfotech\SMB\Test;
+namespace Tecnovix\SMB\Test;
 
-use BInfotech\SMB\ISystem;
-use BInfotech\SMB\TimeZoneProvider;
+use Tecnovix\SMB\ISystem;
+use Tecnovix\SMB\TimeZoneProvider;
 
 class TimeZoneProviderTest extends TestCase {
 	/** @var ISystem|\PHPUnit_Framework_MockObject_MockObject */

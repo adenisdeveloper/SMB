@@ -5,11 +5,11 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Native;
+namespace Tecnovix\SMB\Native;
 
-use BInfotech\SMB\Exception\Exception;
-use BInfotech\SMB\Exception\InvalidRequestException;
-use BInfotech\Streams\File;
+use Tecnovix\SMB\Exception\Exception;
+use Tecnovix\SMB\Exception\InvalidRequestException;
+use Tecnovix\Streams\File;
 use InvalidArgumentException;
 
 abstract class NativeStream implements File {

@@ -5,37 +5,37 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Test;
+namespace Tecnovix\SMB\Test;
 
-use BInfotech\SMB\ACL;
-use BInfotech\SMB\BasicAuth;
-use BInfotech\SMB\Exception\AccessDeniedException;
-use BInfotech\SMB\Exception\AlreadyExistsException;
-use BInfotech\SMB\Exception\ConnectException;
-use BInfotech\SMB\Exception\ConnectionException;
-use BInfotech\SMB\Exception\ConnectionRefusedException;
-use BInfotech\SMB\Exception\FileInUseException;
-use BInfotech\SMB\Exception\ForbiddenException;
-use BInfotech\SMB\Exception\InvalidPathException;
-use BInfotech\SMB\Exception\InvalidResourceException;
-use BInfotech\SMB\Exception\InvalidTypeException;
-use BInfotech\SMB\Exception\NotEmptyException;
-use BInfotech\SMB\Exception\NotFoundException;
-use BInfotech\SMB\IFileInfo;
-use BInfotech\SMB\IOptions;
-use BInfotech\SMB\IShare;
-use BInfotech\SMB\Options;
-use BInfotech\SMB\System;
-use BInfotech\SMB\TimeZoneProvider;
+use Tecnovix\SMB\ACL;
+use Tecnovix\SMB\BasicAuth;
+use Tecnovix\SMB\Exception\AccessDeniedException;
+use Tecnovix\SMB\Exception\AlreadyExistsException;
+use Tecnovix\SMB\Exception\ConnectException;
+use Tecnovix\SMB\Exception\ConnectionException;
+use Tecnovix\SMB\Exception\ConnectionRefusedException;
+use Tecnovix\SMB\Exception\FileInUseException;
+use Tecnovix\SMB\Exception\ForbiddenException;
+use Tecnovix\SMB\Exception\InvalidPathException;
+use Tecnovix\SMB\Exception\InvalidResourceException;
+use Tecnovix\SMB\Exception\InvalidTypeException;
+use Tecnovix\SMB\Exception\NotEmptyException;
+use Tecnovix\SMB\Exception\NotFoundException;
+use Tecnovix\SMB\IFileInfo;
+use Tecnovix\SMB\IOptions;
+use Tecnovix\SMB\IShare;
+use Tecnovix\SMB\Options;
+use Tecnovix\SMB\System;
+use Tecnovix\SMB\TimeZoneProvider;
 
 abstract class AbstractShareTest extends TestCase {
 	/**
-	 * @var \BInfotech\SMB\IServer $server
+	 * @var \Tecnovix\SMB\IServer $server
 	 */
 	protected $server;
 
 	/**
-	 * @var \BInfotech\SMB\IShare $share
+	 * @var \Tecnovix\SMB\IShare $share
 	 */
 	protected $share;
 
@@ -734,7 +734,7 @@ abstract class AbstractShareTest extends TestCase {
 
 	public function testStatRoot() {
 		$info = $this->share->stat('/');
-		$this->assertInstanceOf('\BInfotech\SMB\IFileInfo', $info);
+		$this->assertInstanceOf('\Tecnovix\SMB\IFileInfo', $info);
 	}
 
 	public function testMoveIntoSelf() {

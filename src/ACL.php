@@ -19,7 +19,7 @@
  *
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
 class ACL {
 	const TYPE_ALLOW = 0;

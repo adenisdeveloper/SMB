@@ -5,23 +5,23 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Native;
+namespace Tecnovix\SMB\Native;
 
-use BInfotech\SMB\AbstractShare;
-use BInfotech\SMB\Exception\AlreadyExistsException;
-use BInfotech\SMB\Exception\AuthenticationException;
-use BInfotech\SMB\Exception\ConnectionException;
-use BInfotech\SMB\Exception\DependencyException;
-use BInfotech\SMB\Exception\InvalidHostException;
-use BInfotech\SMB\Exception\InvalidPathException;
-use BInfotech\SMB\Exception\InvalidResourceException;
-use BInfotech\SMB\Exception\InvalidTypeException;
-use BInfotech\SMB\Exception\NotFoundException;
-use BInfotech\SMB\IFileInfo;
-use BInfotech\SMB\INotifyHandler;
-use BInfotech\SMB\IServer;
-use BInfotech\SMB\Wrapped\Server;
-use BInfotech\SMB\Wrapped\Share;
+use Tecnovix\SMB\AbstractShare;
+use Tecnovix\SMB\Exception\AlreadyExistsException;
+use Tecnovix\SMB\Exception\AuthenticationException;
+use Tecnovix\SMB\Exception\ConnectionException;
+use Tecnovix\SMB\Exception\DependencyException;
+use Tecnovix\SMB\Exception\InvalidHostException;
+use Tecnovix\SMB\Exception\InvalidPathException;
+use Tecnovix\SMB\Exception\InvalidResourceException;
+use Tecnovix\SMB\Exception\InvalidTypeException;
+use Tecnovix\SMB\Exception\NotFoundException;
+use Tecnovix\SMB\IFileInfo;
+use Tecnovix\SMB\INotifyHandler;
+use Tecnovix\SMB\IServer;
+use Tecnovix\SMB\Wrapped\Server;
+use Tecnovix\SMB\Wrapped\Share;
 
 class NativeShare extends AbstractShare {
 	/**

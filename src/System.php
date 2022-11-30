@@ -5,9 +5,9 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
-use BInfotech\SMB\Exception\Exception;
+use Tecnovix\SMB\Exception\Exception;
 
 class System implements ISystem {
 	/** @var (string|null)[] */

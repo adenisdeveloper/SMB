@@ -19,11 +19,11 @@
  *
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
-use BInfotech\SMB\Exception\DependencyException;
-use BInfotech\SMB\Native\NativeServer;
-use BInfotech\SMB\Wrapped\Server;
+use Tecnovix\SMB\Exception\DependencyException;
+use Tecnovix\SMB\Native\NativeServer;
+use Tecnovix\SMB\Wrapped\Server;
 
 class ServerFactory {
 	const BACKENDS = [

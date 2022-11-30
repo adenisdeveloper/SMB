@@ -5,16 +5,16 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Test;
+namespace Tecnovix\SMB\Test;
 
-use BInfotech\SMB\ACL;
-use BInfotech\SMB\BasicAuth;
-use BInfotech\SMB\Exception\InvalidArgumentException;
-use BInfotech\SMB\IOptions;
-use BInfotech\SMB\Native\NativeServer;
-use BInfotech\SMB\Options;
-use BInfotech\SMB\System;
-use BInfotech\SMB\TimeZoneProvider;
+use Tecnovix\SMB\ACL;
+use Tecnovix\SMB\BasicAuth;
+use Tecnovix\SMB\Exception\InvalidArgumentException;
+use Tecnovix\SMB\IOptions;
+use Tecnovix\SMB\Native\NativeServer;
+use Tecnovix\SMB\Options;
+use Tecnovix\SMB\System;
+use Tecnovix\SMB\TimeZoneProvider;
 
 class NativeShareTest extends AbstractShareTest {
 	public function getServerClass(): string {

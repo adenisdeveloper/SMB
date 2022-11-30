@@ -19,7 +19,7 @@
  *
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
 interface IOptions {
 	const PROTOCOL_NT1 = 'NT1';

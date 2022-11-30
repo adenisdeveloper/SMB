@@ -19,15 +19,15 @@
  *
  */
 
-namespace BInfotech\SMB\Test;
+namespace Tecnovix\SMB\Test;
 
-use BInfotech\SMB\AnonymousAuth;
-use BInfotech\SMB\Exception\DependencyException;
-use BInfotech\SMB\IAuth;
-use BInfotech\SMB\Native\NativeServer;
-use BInfotech\SMB\ServerFactory;
-use BInfotech\SMB\System;
-use BInfotech\SMB\Wrapped\Server;
+use Tecnovix\SMB\AnonymousAuth;
+use Tecnovix\SMB\Exception\DependencyException;
+use Tecnovix\SMB\IAuth;
+use Tecnovix\SMB\Native\NativeServer;
+use Tecnovix\SMB\ServerFactory;
+use Tecnovix\SMB\System;
+use Tecnovix\SMB\Wrapped\Server;
 
 class ServerFactoryTest extends TestCase {
 	/** @var IAuth */

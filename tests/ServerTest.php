@@ -5,22 +5,22 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Test;
+namespace Tecnovix\SMB\Test;
 
-use BInfotech\SMB\BasicAuth;
-use BInfotech\SMB\Exception\AuthenticationException;
-use BInfotech\SMB\Exception\ConnectionRefusedException;
-use BInfotech\SMB\Exception\InvalidHostException;
-use BInfotech\SMB\IOptions;
-use BInfotech\SMB\IShare;
-use BInfotech\SMB\Options;
-use BInfotech\SMB\System;
-use BInfotech\SMB\TimeZoneProvider;
-use BInfotech\SMB\Wrapped\Server;
+use Tecnovix\SMB\BasicAuth;
+use Tecnovix\SMB\Exception\AuthenticationException;
+use Tecnovix\SMB\Exception\ConnectionRefusedException;
+use Tecnovix\SMB\Exception\InvalidHostException;
+use Tecnovix\SMB\IOptions;
+use Tecnovix\SMB\IShare;
+use Tecnovix\SMB\Options;
+use Tecnovix\SMB\System;
+use Tecnovix\SMB\TimeZoneProvider;
+use Tecnovix\SMB\Wrapped\Server;
 
 class ServerTest extends TestCase {
 	/**
-	 * @var \BInfotech\SMB\Wrapped\Server $server
+	 * @var \Tecnovix\SMB\Wrapped\Server $server
 	 */
 	private $server;
 

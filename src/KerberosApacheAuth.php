@@ -19,10 +19,10 @@
  *
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
-use BInfotech\SMB\Exception\DependencyException;
-use BInfotech\SMB\Exception\Exception;
+use Tecnovix\SMB\Exception\DependencyException;
+use Tecnovix\SMB\Exception\Exception;
 
 /**
  * Use existing kerberos ticket to authenticate and reuse the apache ticket cache (mod_auth_kerb)

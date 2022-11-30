@@ -6,12 +6,12 @@
  *
  */
 
-namespace BInfotech\SMB\Wrapped;
+namespace Tecnovix\SMB\Wrapped;
 
-use BInfotech\SMB\Change;
-use BInfotech\SMB\Exception\Exception;
-use BInfotech\SMB\Exception\RevisionMismatchException;
-use BInfotech\SMB\INotifyHandler;
+use Tecnovix\SMB\Change;
+use Tecnovix\SMB\Exception\Exception;
+use Tecnovix\SMB\Exception\RevisionMismatchException;
+use Tecnovix\SMB\INotifyHandler;
 
 class NotifyHandler implements INotifyHandler {
 	/** @var Connection */

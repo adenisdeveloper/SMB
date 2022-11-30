@@ -8,8 +8,8 @@ $workgroup = 'test';
 $password = 'test';
 $share = 'test';
 
-$auth = new \BInfotech\SMB\BasicAuth($user, $workgroup, $password);
-$serverFactory = new \BInfotech\SMB\ServerFactory();
+$auth = new \Tecnovix\SMB\BasicAuth($user, $workgroup, $password);
+$serverFactory = new \Tecnovix\SMB\ServerFactory();
 
 $server = $serverFactory->createServer($host, $auth);
 

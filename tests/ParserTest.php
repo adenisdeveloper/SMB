@@ -5,12 +5,12 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Test;
+namespace Tecnovix\SMB\Test;
 
-use BInfotech\SMB\ACL;
-use BInfotech\SMB\IFileInfo;
-use BInfotech\SMB\Wrapped\FileInfo;
-use BInfotech\SMB\Wrapped\Parser;
+use Tecnovix\SMB\ACL;
+use Tecnovix\SMB\IFileInfo;
+use Tecnovix\SMB\Wrapped\FileInfo;
+use Tecnovix\SMB\Wrapped\Parser;
 
 class ParserTest extends \PHPUnit\Framework\TestCase {
 	public function modeProvider() {

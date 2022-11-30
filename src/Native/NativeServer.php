@@ -5,16 +5,16 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Native;
+namespace Tecnovix\SMB\Native;
 
-use BInfotech\SMB\AbstractServer;
-use BInfotech\SMB\Exception\AuthenticationException;
-use BInfotech\SMB\Exception\InvalidHostException;
-use BInfotech\SMB\IAuth;
-use BInfotech\SMB\IOptions;
-use BInfotech\SMB\IShare;
-use BInfotech\SMB\ISystem;
-use BInfotech\SMB\ITimeZoneProvider;
+use Tecnovix\SMB\AbstractServer;
+use Tecnovix\SMB\Exception\AuthenticationException;
+use Tecnovix\SMB\Exception\InvalidHostException;
+use Tecnovix\SMB\IAuth;
+use Tecnovix\SMB\IOptions;
+use Tecnovix\SMB\IShare;
+use Tecnovix\SMB\ISystem;
+use Tecnovix\SMB\ITimeZoneProvider;
 
 class NativeServer extends AbstractServer {
 	/**

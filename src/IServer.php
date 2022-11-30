@@ -19,7 +19,7 @@
  *
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
 interface IServer {
 	public function getAuth(): IAuth;
@@ -27,10 +27,10 @@ interface IServer {
 	public function getHost(): string;
 
 	/**
-	 * @return \BInfotech\SMB\IShare[]
+	 * @return \Tecnovix\SMB\IShare[]
 	 *
-	 * @throws \BInfotech\SMB\Exception\AuthenticationException
-	 * @throws \BInfotech\SMB\Exception\InvalidHostException
+	 * @throws \Tecnovix\SMB\Exception\AuthenticationException
+	 * @throws \Tecnovix\SMB\Exception\InvalidHostException
 	 */
 	public function listShares(): array;
 

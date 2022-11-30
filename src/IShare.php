@@ -5,12 +5,12 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
-use BInfotech\SMB\Exception\AlreadyExistsException;
-use BInfotech\SMB\Exception\InvalidRequestException;
-use BInfotech\SMB\Exception\InvalidTypeException;
-use BInfotech\SMB\Exception\NotFoundException;
+use Tecnovix\SMB\Exception\AlreadyExistsException;
+use Tecnovix\SMB\Exception\InvalidRequestException;
+use Tecnovix\SMB\Exception\InvalidTypeException;
+use Tecnovix\SMB\Exception\NotFoundException;
 
 interface IShare {
 	/**

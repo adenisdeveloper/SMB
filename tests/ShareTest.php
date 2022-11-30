@@ -5,15 +5,15 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Test;
+namespace Tecnovix\SMB\Test;
 
-use BInfotech\SMB\BasicAuth;
-use BInfotech\SMB\Exception\ConnectException;
-use BInfotech\SMB\Exception\DependencyException;
-use BInfotech\SMB\Options;
-use BInfotech\SMB\System;
-use BInfotech\SMB\TimeZoneProvider;
-use BInfotech\SMB\Wrapped\Server as NormalServer;
+use Tecnovix\SMB\BasicAuth;
+use Tecnovix\SMB\Exception\ConnectException;
+use Tecnovix\SMB\Exception\DependencyException;
+use Tecnovix\SMB\Options;
+use Tecnovix\SMB\System;
+use Tecnovix\SMB\TimeZoneProvider;
+use Tecnovix\SMB\Wrapped\Server as NormalServer;
 
 class ShareTest extends AbstractShareTest {
 	public function getServerClass(): string {

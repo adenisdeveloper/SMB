@@ -19,9 +19,9 @@
  *
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
-use BInfotech\SMB\Exception\Exception;
+use Tecnovix\SMB\Exception\Exception;
 
 class AnonymousAuth implements IAuth {
 	public function getUsername(): ?string {

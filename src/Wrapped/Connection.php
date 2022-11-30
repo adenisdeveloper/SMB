@@ -5,15 +5,15 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Wrapped;
+namespace Tecnovix\SMB\Wrapped;
 
-use BInfotech\SMB\Exception\AccessDeniedException;
-use BInfotech\SMB\Exception\AuthenticationException;
-use BInfotech\SMB\Exception\ConnectException;
-use BInfotech\SMB\Exception\ConnectionException;
-use BInfotech\SMB\Exception\ConnectionRefusedException;
-use BInfotech\SMB\Exception\InvalidHostException;
-use BInfotech\SMB\Exception\NoLoginServerException;
+use Tecnovix\SMB\Exception\AccessDeniedException;
+use Tecnovix\SMB\Exception\AuthenticationException;
+use Tecnovix\SMB\Exception\ConnectException;
+use Tecnovix\SMB\Exception\ConnectionException;
+use Tecnovix\SMB\Exception\ConnectionRefusedException;
+use Tecnovix\SMB\Exception\InvalidHostException;
+use Tecnovix\SMB\Exception\NoLoginServerException;
 
 class Connection extends RawConnection {
 	const DELIMITER = 'smb:';

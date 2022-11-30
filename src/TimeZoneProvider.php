@@ -5,7 +5,7 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
 class TimeZoneProvider implements ITimeZoneProvider {
 	/**

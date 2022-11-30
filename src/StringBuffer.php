@@ -21,7 +21,7 @@ declare(strict_types=1);
  *
  */
 
-namespace BInfotech\SMB;
+namespace Tecnovix\SMB;
 
 class StringBuffer {
 	/** @var string */

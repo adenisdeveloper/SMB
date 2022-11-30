@@ -5,9 +5,9 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Native;
+namespace Tecnovix\SMB\Native;
 
-use BInfotech\SMB\StringBuffer;
+use Tecnovix\SMB\StringBuffer;
 
 /**
  * Stream optimized for write only usage

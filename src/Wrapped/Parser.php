@@ -5,21 +5,21 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Wrapped;
+namespace Tecnovix\SMB\Wrapped;
 
-use BInfotech\SMB\ACL;
-use BInfotech\SMB\Exception\AccessDeniedException;
-use BInfotech\SMB\Exception\AlreadyExistsException;
-use BInfotech\SMB\Exception\AuthenticationException;
-use BInfotech\SMB\Exception\Exception;
-use BInfotech\SMB\Exception\FileInUseException;
-use BInfotech\SMB\Exception\InvalidHostException;
-use BInfotech\SMB\Exception\InvalidParameterException;
-use BInfotech\SMB\Exception\InvalidResourceException;
-use BInfotech\SMB\Exception\InvalidTypeException;
-use BInfotech\SMB\Exception\NoLoginServerException;
-use BInfotech\SMB\Exception\NotEmptyException;
-use BInfotech\SMB\Exception\NotFoundException;
+use Tecnovix\SMB\ACL;
+use Tecnovix\SMB\Exception\AccessDeniedException;
+use Tecnovix\SMB\Exception\AlreadyExistsException;
+use Tecnovix\SMB\Exception\AuthenticationException;
+use Tecnovix\SMB\Exception\Exception;
+use Tecnovix\SMB\Exception\FileInUseException;
+use Tecnovix\SMB\Exception\InvalidHostException;
+use Tecnovix\SMB\Exception\InvalidParameterException;
+use Tecnovix\SMB\Exception\InvalidResourceException;
+use Tecnovix\SMB\Exception\InvalidTypeException;
+use Tecnovix\SMB\Exception\NoLoginServerException;
+use Tecnovix\SMB\Exception\NotEmptyException;
+use Tecnovix\SMB\Exception\NotFoundException;
 
 class Parser {
 	const MSG_NOT_FOUND = 'Error opening local file ';

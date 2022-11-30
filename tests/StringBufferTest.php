@@ -21,9 +21,9 @@ declare(strict_types=1);
  *
  */
 
-namespace BInfotech\SMB\Test;
+namespace Tecnovix\SMB\Test;
 
-use BInfotech\SMB\StringBuffer;
+use Tecnovix\SMB\StringBuffer;
 
 class StringBufferTest extends TestCase {
 	public function testPushRead() {

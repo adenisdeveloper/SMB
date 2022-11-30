@@ -5,23 +5,23 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Test;
+namespace Tecnovix\SMB\Test;
 
-use BInfotech\SMB\BasicAuth;
-use BInfotech\SMB\Change;
-use BInfotech\SMB\Exception\AlreadyExistsException;
-use BInfotech\SMB\Exception\Exception;
-use BInfotech\SMB\Exception\RevisionMismatchException;
-use BInfotech\SMB\INotifyHandler;
-use BInfotech\SMB\IShare;
-use BInfotech\SMB\Options;
-use BInfotech\SMB\System;
-use BInfotech\SMB\TimeZoneProvider;
-use BInfotech\SMB\Wrapped\Server;
+use Tecnovix\SMB\BasicAuth;
+use Tecnovix\SMB\Change;
+use Tecnovix\SMB\Exception\AlreadyExistsException;
+use Tecnovix\SMB\Exception\Exception;
+use Tecnovix\SMB\Exception\RevisionMismatchException;
+use Tecnovix\SMB\INotifyHandler;
+use Tecnovix\SMB\IShare;
+use Tecnovix\SMB\Options;
+use Tecnovix\SMB\System;
+use Tecnovix\SMB\TimeZoneProvider;
+use Tecnovix\SMB\Wrapped\Server;
 
 class NotifyHandlerTest extends TestCase {
 	/**
-	 * @var \BInfotech\SMB\Server $server
+	 * @var \Tecnovix\SMB\Server $server
 	 */
 	private $server;
 

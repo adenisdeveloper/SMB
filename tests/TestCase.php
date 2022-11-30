@@ -5,7 +5,7 @@
  * http://opensource.org/licenses/MIT
  */
 
-namespace BInfotech\SMB\Test;
+namespace Tecnovix\SMB\Test;
 
 abstract class TestCase extends \PHPUnit\Framework\TestCase {
 	protected function requireBackendEnv($backend) {
