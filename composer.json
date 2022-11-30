@@ -1,5 +1,5 @@
 {
-  "name": "binfotech/smb",
+  "name": "tecnovix/smb",
   "description": "php wrapper for smbclient and libsmbclient-php",
   "license": "MIT",
   "authors": [
@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": ">=7.2",
-    "binfotech/streams": ">=0.7.3"
+    "tecnovix/streams": ">=0.7.3"
   },
   "require-dev": {
     "phpunit/phpunit": "^8.5|^9.3.8",
@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "BInfotech\\SMB\\": "src/"
+      "Tecnovix\\SMB\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "BInfotech\\SMB\\Test\\": "tests/"
+      "Tecnovix\\SMB\\Test\\": "tests/"
     }
   },
   "scripts": {
